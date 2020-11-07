@@ -1,0 +1,21 @@
+import cv2
+
+img = cv2.imread("sampledInteger.png")
+
+detector = cv2.QRCodeDetector()
+
+data, bbox, straight_qrcode = detector.detectAndDecode(img)
+
+if bbox is not None:
+     print(f"QRCode data:\n{data}")
+     linesN = len(bbox)
+     for i in range(linesN):
+          point1 = tuple(bbox[i][0])
+          point2 = tuple(bbox[(i+1) % linesN][0])
+          cv2.line(img, point1, point2, color=(255, 0, 0), thickness=2)
+
+#cv2.imshow("sampledInteger.png", img)    this one will show some the QR code received
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+#this is the bone structure of it. 
