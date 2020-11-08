@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="firebase hosting">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="firebase hosting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604763445681</updated>
-      <workItem from="1604763451532" duration="20518000" />
+      <workItem from="1604763451532" duration="20836000" />
     </task>
     <task id="LOCAL-00001" summary="added basic frontend files">
       <created>1604763596652</created>
@@ -127,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604804721166</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="firebase hosting">
+      <created>1604804837696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604804837696</updated>
+    </task>
+    <task id="LOCAL-00008" summary="firebase hosting">
+      <created>1604804841808</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604804841808</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604782107342" />
-    <state x="-25" y="104" width="1736" height="856" key="DiffContextDialog" timestamp="1604804833164">
+    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog" timestamp="1604805154858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-25" y="104" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804833164" />
+    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604805154858" />
     <state x="115" y="61" key="MergeDialog" timestamp="1604804494383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="263" key="MultipleFileMergeDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804496530" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604804725988">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604805057230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804725988" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604805057230" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604804700805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
