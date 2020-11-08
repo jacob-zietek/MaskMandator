@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="refactoring project, flask integration">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/server/src/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/templates/layout.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jy5Mo0nIraY5T9KbqmY7JFdg91" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server\src\templates" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\static" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ARJUN\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="" />
+      <created>1604763445681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604763445681</updated>
+      <workItem from="1604763451532" duration="20123000" />
+    </task>
+    <task id="LOCAL-00001" summary="added basic frontend files">
+      <created>1604763596652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604763596652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="started on the frontend requesting camera, moving to importing flask">
+      <created>1604764976891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604764976891</updated>
+    </task>
+    <task id="LOCAL-00003" summary="basic python files">
+      <created>1604765032171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604765032171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactoring project, flask integration">
+      <created>1604768960914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604768960914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added basic frontend files" />
+    <MESSAGE value="started on the frontend requesting camera, moving to importing flask" />
+    <MESSAGE value="basic python files" />
+    <MESSAGE value="refactoring project, flask integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring project, flask integration" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604782107342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604782107342" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604768965494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604768965494" />
+  </component>
+</project>
