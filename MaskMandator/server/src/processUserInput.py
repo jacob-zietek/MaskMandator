@@ -10,6 +10,7 @@ from API_KEYS import main as API_LIST
 
 from cloudant import cloudant
 from cloudant import cloudant_iam
+import numpy as np
 
 project_id, model_id, DB_USERNAME, DB_API_KEY = API_LIST()
 
@@ -44,10 +45,10 @@ def isWearingMask(file_path):
     )
     response = prediction_client.predict(request=request)
 
-    print("Prediction results:")
+    #print("Prediction results:")
     for result in response.payload:
-        print("Predicted class name: {}".format(result.display_name))
-        print("Predicted class score: {}".format(result.classification.score))
+        #print("Predicted class name: {}".format(result.display_name))
+        #print("Predicted class score: {}".format(result.classification.score))
         return True if (result.display_name == "with_mask" and result.classification.score > 0.8) else False
 
 def getName(idNumber): # Gets name of student
@@ -110,15 +111,50 @@ def underlyingHealthCondition(idNumber): # Returns bool, true if student has und
     return True if health_condition == "yes" else False
 
 
+def read_qr(img_name):
+     import cv2
+     img = cv2.imread(img_name)     
+     det = cv2.QRCodeDetector()
+     return det.detectAndDecode(img)
+
 
 def main():
     project_id, model_id, DB_USERNAME, DB_API_KEY = API_LIST()
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'ServiceAccountToken_GoogleVision.json'
-    file_path = "face.jpg"
+    
+    numStudents = 6
+    
+    idArray = np.linspace(1, numStudents, numStudents)
+    
+    
+    file_path = "face.png"
+    
+    qr_file_path = "qrCode.png"
+    
+    #file_path = "/Users/jacobzietek/Documents/RPIHacks2020/nomask.png"
+    #qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
+    
+    wearingMark = isWearingMask(file_path)
+    
+    qrValue = read_qr(qr_file_path)[0]
+    
+    print(qrValue)
+    
+    if(float(qrValue) not in idArray or qrValue == ""):
+        return("ID not found! Please retry.")
+    
+    if(getInfringements(qrValue) > 3):
+        return("You have more than 3 infringements on your account. Please do not enter and talk to the main office.")
+    
+    if(underlyingHealthCondition(qrValue)):
+        return("You have an underlying health condition! Please do not enter.")
 
-    print(isWearingMask(file_path))
+    if(not wearingMark):
+        incrementInfringements(qrValue)
+        return("Please put on your mask! You have been penalized.")
+        
+    return("Access granted. Thank you and stay safe!")
+        
     
-    print(("Has Mask") if isWearingMask(file_path) else ("Has No Mask"))
     
-    
-main()
+print(main())

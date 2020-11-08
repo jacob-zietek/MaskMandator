@@ -14,7 +14,9 @@ def read_qr(img_name):
      det = cv2.QRCodeDetector()
      return det.detectAndDecode(img)
  
-qr_code_value = read_qr("test22.png")
+qr_code_value = read_qr("/Users/jacobzietek/Documents/RPIHacks2020/bryan.png")
+
+print(qr_code_value[0])
 
 '''
 import qrtools
