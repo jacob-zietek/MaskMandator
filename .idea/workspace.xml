@@ -22,21 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="refactoring project, flask integration">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/server/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/static/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/templates/layout.html" beforeDir="false" />
+    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="firebase hosting">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604763445681</updated>
-      <workItem from="1604763451532" duration="20123000" />
+      <workItem from="1604763451532" duration="20518000" />
     </task>
     <task id="LOCAL-00001" summary="added basic frontend files">
       <created>1604763596652</created>
@@ -126,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604768960914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="firebase hosting">
+      <created>1604804453937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604804453937</updated>
+    </task>
+    <task id="LOCAL-00006" summary="firebase hosting">
+      <created>1604804721166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604804721166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,16 +150,33 @@
     <MESSAGE value="started on the frontend requesting camera, moving to importing flask" />
     <MESSAGE value="basic python files" />
     <MESSAGE value="refactoring project, flask integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring project, flask integration" />
+    <MESSAGE value="firebase hosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase hosting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604782107342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604782107342" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604768965494">
+    <state x="-25" y="104" width="1736" height="856" key="DiffContextDialog" timestamp="1604804833164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604768965494" />
+    <state x="-25" y="104" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804833164" />
+    <state x="115" y="61" key="MergeDialog" timestamp="1604804494383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="115" y="61" key="MergeDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804494383" />
+    <state x="795" y="263" key="MultipleFileMergeDialog" timestamp="1604804496530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="263" key="MultipleFileMergeDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804496530" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604804725988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804725988" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604804700805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804700805" />
   </component>
 </project>
