@@ -22,10 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="edited app.py">
+    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="frontend camera work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/functions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/functions/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaskMandator/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604763445681</updated>
-      <workItem from="1604763451532" duration="22944000" />
+      <workItem from="1604763451532" duration="28039000" />
     </task>
     <task id="LOCAL-00001" summary="added basic frontend files">
       <created>1604763596652</created>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604806195653</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="frontend camera work">
+      <created>1604807328560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604807328560</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +208,8 @@
     <MESSAGE value="refactoring project, flask integration" />
     <MESSAGE value="firebase hosting" />
     <MESSAGE value="edited app.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited app.py" />
+    <MESSAGE value="frontend camera work" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend camera work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604782107342">
@@ -218,10 +228,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="263" key="MultipleFileMergeDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804496530" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604806197903">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604807330976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604806197903" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604807330976" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604804700805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
