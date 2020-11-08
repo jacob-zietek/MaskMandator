@@ -36,7 +36,7 @@
 **Jacob**:
 
 
-**Jeongbin**:
+**Jeongbin**: I have learned how the tensorflow models of IBM studio and Google API for image detection function, how to generate and detect given data from QR code based on python, and different ways to use Flask. 
 
 
 
