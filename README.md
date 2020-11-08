@@ -1,3 +1,14 @@
+# MaskMandator
+
+## [Hackathon submission for HackRPI 2020](https://devpost.com/software/mask-mandator?ref_content=user-portfolio&ref_feature=in_progress)
+
+Awards won:
+- 2nd Place FCA AI Best Hack
+- Google Cloud COVID-19 Response Hack Finalists 
+- Google Cloud COVID-19 1st Place
+- Top 15 Teams By Wolfram
+
+
 ## Inspiration
 Mask Mandator is inspired by the ever increasing threat of the Sars-CoV-2 pandemic. Despite America consistently breaking top COVID infection statistics, there are still many people who do not follow simple guidelines for safety. Seeing those people without masks on our campus makes us feel quite uncomfortable, and we wished that there were more guidelines in place. Our desire to aid in the fight against the pandemic and protect people inspired us to launch this project.
 
