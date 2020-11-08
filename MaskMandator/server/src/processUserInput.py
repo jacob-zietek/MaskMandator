@@ -15,8 +15,11 @@ import numpy as np
 project_id, model_id, DB_USERNAME, DB_API_KEY = API_LIST()
 
 from google.cloud import automl
+from google.cloud import vision
+#Get Pillow not PIL
+from PIL import Image, ImageOps
 
-import os
+import os, io, argparse
 
 def isWearingMask(file_path):
     prediction_client = automl.PredictionServiceClient()
@@ -36,7 +39,7 @@ def isWearingMask(file_path):
     # params is additional domain-specific parameters.
     # score_threshold is used to filter the result
     # https://cloud.google.com/automl/docs/reference/rpc/google.cloud.automl.v1#predictrequest
-    params = {"score_threshold": "0.8"}
+    params = {"score_threshold": "0.1"}
 
     request = automl.PredictRequest(
         name=model_full_id,
@@ -46,10 +49,13 @@ def isWearingMask(file_path):
     response = prediction_client.predict(request=request)
 
     #print("Prediction results:")
+    print(len(response.payload))
     for result in response.payload:
-        #print("Predicted class name: {}".format(result.display_name))
-        #print("Predicted class score: {}".format(result.classification.score))
-        return True if (result.display_name == "with_mask" and result.classification.score > 0.8) else False
+        print("Predicted class name: {}".format(result.display_name))
+        print("Predicted class score: {}".format(result.classification.score))
+        return True if (result.display_name == "with_mask" and result.classification.score > 0.9) else False
+    
+    return false;
 
 def getName(idNumber): # Gets name of student
     
@@ -110,37 +116,77 @@ def underlyingHealthCondition(idNumber): # Returns bool, true if student has und
         
     return True if health_condition == "yes" else False
 
+def get_crop_hint(path):
+    """Localize objects in the local image.
+
+    Args:
+    path: The path to the local file.
+    """
+    from google.cloud import vision
+    client = vision.ImageAnnotatorClient()
+
+    with open(path, 'rb') as image_file:
+        content = image_file.read()
+    image = vision.Image(content=content)
+
+    objects = client.object_localization(
+        image=image).localized_object_annotations
+
+    for object_ in objects:
+        print(object_.name)
+        if(object_.name == "2D barcode"):
+            return object_.bounding_poly.normalized_vertices
+    return None;
+
+def crop_to_hint(image_file):
+    """Crop the image using the hints in the vector list."""
+    vects = get_crop_hint(image_file)
+
+
+    im = Image.open(image_file)
+    width, height = im.size
+    im2 = im.crop([vects[0].x * width - 10, vects[0].y * height - 10,
+                  vects[2].x * width + 10, vects[2].y * height + 10])
+    im2 = ImageOps.mirror(im2)
+    im2.save('output-crop.png', 'PNG')
+
 
 def read_qr(img_name):
-     import cv2
-     img = cv2.imread(img_name)     
-     det = cv2.QRCodeDetector()
-     return det.detectAndDecode(img)
+    import cv2
+    crop_to_hint(img_name)  
+    img = cv2.imread('output-crop.png')  
+    det = cv2.QRCodeDetector()
+    return det.detectAndDecode(img)
 
 
 def main():
     project_id, model_id, DB_USERNAME, DB_API_KEY = API_LIST()
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'ServiceAccountToken_GoogleVision.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'ServiceAccountToken_GoogleVision.json'
     
     numStudents = 6
     
     idArray = np.linspace(1, numStudents, numStudents)
     
     
-    file_path = "face.png"
+    file_path = "qrtest9.jpg"
     
-    qr_file_path = "qrCode.png"
     
     #file_path = "/Users/jacobzietek/Documents/RPIHacks2020/bryan.png"
     #qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
     
     wearingMark = isWearingMask(file_path)
-    
-    qrValue = read_qr(qr_file_path)[0]
+    print(wearingMark)
+    qrValue = "a"
+    try:
+        qrValue = read_qr(file_path)[0]
+    except TypeError:
+        return("Please Show a QR Code")
     
     print(qrValue)
-    
-    if(float(qrValue) not in idArray or qrValue == ""):
+    try:
+        if(float(qrValue) not in idArray or qrValue == ""):
+            return("ID not found! Please retry.")
+    except ValueError:
         return("ID not found! Please retry.")
     
     if(getInfringements(qrValue) > 3):
