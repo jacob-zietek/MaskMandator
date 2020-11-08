@@ -13,8 +13,8 @@
   the corresponding information at IBM database.
 
 ## How we built it
-  We employed AI training model from Google API to perform the detection, IBM database as a storage for the information of students, Flask and Firebase for
-  the integrated server, javascript and html for the website, and python as a fundamental.
+   We employed AI training model from Google API to perform the detection, IBM database as a storage for the information of students, Flask and Firebase for
+   the integrated server, javascript and html for the website, and python as a fundamental.
 
 ## Challenges we ran into
   - Manipulation of existing AI training models from Google API.
