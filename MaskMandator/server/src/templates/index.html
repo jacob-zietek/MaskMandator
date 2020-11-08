@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="../functions/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -28,12 +28,13 @@
     <h1>Mask Mandator</h1>
 </head>
 <body>
-<h2><br><br>Awaiting QR Code...</h2>
+<br><br>
+<h2 id="headertext">Awaiting QR Code...</h2>
 <div class="camera">
     <video id="video">Video stream not available.</video>
     <form enctype="multipart/form-data" action="/upload" method="post">
         <button type="submit" id="startbutton">Take photo</button>
-
+        <img id="toDownload">
     </form>
 </div>
 <canvas id="canvas">
@@ -63,7 +64,6 @@
         var canvas = null;
         var photo = null;
         var startbutton = null;
-
 
         function startup() {
             video = document.getElementById('video');
@@ -134,16 +134,7 @@
 
                 var data = canvas.toDataURL('image/png');
                 photo.setAttribute('src', data);
-
-                $.post("demo_test_post.asp",
-                    {
-                        image: photo
-                    },
-                    function(photo){
-                        alert("Image: " + photo);
-                    });
-
-
+                document.getElementById("toDownload").src = data;
             } else {
                 clearphoto();
             }
@@ -156,5 +147,6 @@
 </script>
 
 </body>
+
 
 </html>

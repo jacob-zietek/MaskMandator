@@ -55,7 +55,7 @@ def isWearingMask(file_path):
         print("Predicted class score: {}".format(result.classification.score))
         return True if (result.display_name == "with_mask" and result.classification.score > 0.9) else False
     
-    return false;
+    return False;
 
 def getName(idNumber): # Gets name of student
     
@@ -168,7 +168,7 @@ def main():
     idArray = np.linspace(1, numStudents, numStudents)
     
     
-    file_path = "qrtest9.jpg"
+    file_path = "face.png"
     
     
     #file_path = "/Users/jacobzietek/Documents/RPIHacks2020/bryan.png"
@@ -180,7 +180,7 @@ def main():
     try:
         qrValue = read_qr(file_path)[0]
     except TypeError:
-        return("Please Show a QR Code")
+        return("Please Show a QR Code.")
     
     print(qrValue)
     try:

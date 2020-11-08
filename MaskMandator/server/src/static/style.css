@@ -7,7 +7,7 @@ h1 {
 h2 {
     text-align: center;
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: "Lobster";
 }
 
 body {
@@ -66,4 +66,8 @@ body {
     font-size: 16px;
     font-family: "Lucida Grande", "Arial", sans-serif;
     width: 760px;
+}
+
+#toDownload {
+
 }
