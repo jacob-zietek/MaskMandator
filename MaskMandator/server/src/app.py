@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, send_from_directory
 import os
 import time
 import sys
-import predict
+import processUserInput
 #whatever the program that will provide the image
 
 app = Flask(__name__)
@@ -19,4 +19,4 @@ def upload_file():
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
-    predict.main()
+    processUserInput.main()
