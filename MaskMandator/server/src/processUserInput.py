@@ -131,8 +131,8 @@ def main():
     
     qr_file_path = "qrCode.png"
     
-    #file_path = "/Users/jacobzietek/Documents/RPIHacks2020/nomask.png"
-    #qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
+    file_path = "/Users/jacobzietek/Documents/RPIHacks2020/bryan.png"
+    qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
     
     wearingMark = isWearingMask(file_path)
     
@@ -153,7 +153,9 @@ def main():
         incrementInfringements(qrValue)
         return("Please put on your mask! You have been penalized.")
         
-    return("Access granted. Thank you and stay safe!")
+    user_name = getName(qrValue)
+    
+    return("Access granted. Thank you, {}, and stay safe!".format(user_name))
         
     
     
