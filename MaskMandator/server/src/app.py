@@ -1,24 +1,22 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, request, redirect, send_from_directory, send_file
 import os
 import time
+import sys
+import predict
+#whatever the program that will provide the image
 
 app = Flask(__name__)
 
-def format_server_time():
-  server_time = time.localtime()
-  return time.strftime("%I:%M:%S %p", server_time)
 
 
-@app.route('/')
-def index():
-    context = { 'server_time': format_server_time() }
-    # 1
-    template = render_template('index.html', context=context)
-    # 2
-    response = make_response(template)
-    # 3
-    response.headers['Cache-Control'] = 'public, max-age=300, s-maxage=600'
-    return response
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    if request.method == 'POST':
+        f = reques.files('file')
+        filename = f.filename
+            if filename(filename.index("."):] == ".png":
+                f.save('uploaded_file.png')
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
+    predict.main()
