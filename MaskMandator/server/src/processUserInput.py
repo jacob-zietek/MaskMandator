@@ -131,8 +131,8 @@ def main():
     
     qr_file_path = "qrCode.png"
     
-    file_path = "/Users/jacobzietek/Documents/RPIHacks2020/bryan.png"
-    qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
+    #file_path = "/Users/jacobzietek/Documents/RPIHacks2020/bryan.png"
+    #qr_file_path = "/Users/jacobzietek/Documents/RPIHacks2020/test1.png"
     
     wearingMark = isWearingMask(file_path)
     
