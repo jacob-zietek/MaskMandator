@@ -13,7 +13,7 @@
   the corresponding information at IBM database.
 
 ## How we built it
-   We employed AI training model from Google vision and Google Auto ML to perform the detection, IBM database as a storage for the information of students, Flask 
+   We employed AI training model from Google vision and Google Auto ML to perform the detection, GitHub for the enhanced project structure, IBM database as a storage for the information of students, Flask 
    and Firebase for the integrated server, javascript, TCP, and html for the website, and python as a fundamental.
 
 ## Challenges we ran into
