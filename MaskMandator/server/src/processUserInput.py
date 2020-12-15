@@ -53,7 +53,7 @@ def isWearingMask(file_path):
     for result in response.payload:
         print("Predicted class name: {}".format(result.display_name))
         print("Predicted class score: {}".format(result.classification.score))
-        return True if (result.display_name == "with_mask" and result.classification.score > 0.9) else False
+        return True if (result.display_name == "with_mask" and result.classification.score > 0.9999) else False
     
     return False;
 
@@ -147,7 +147,7 @@ def crop_to_hint(image_file):
     width, height = im.size
     im2 = im.crop([vects[0].x * width - 10, vects[0].y * height - 10,
                   vects[2].x * width + 10, vects[2].y * height + 10])
-    im2 = ImageOps.mirror(im2)
+    #im2 = ImageOps.mirror(im2)
     im2.save('output-crop.png', 'PNG')
 
 
@@ -203,6 +203,6 @@ def main():
     
     return("Access granted. Thank you, {}, and stay safe!".format(user_name))
         
+if __name__ == '__main__':
+    main()
     
-    
-print(main())
