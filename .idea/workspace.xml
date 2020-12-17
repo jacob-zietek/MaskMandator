@@ -22,12 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="frontend camera work">
+    <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="we're going back to local bois">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/functions/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/functions/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\static" />
       <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator" />
       <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server" />
-      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server\src\templates" />
-      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\static" />
-      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server\src\static" />
+      <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604763445681</updated>
-      <workItem from="1604763451532" duration="28039000" />
+      <workItem from="1604763451532" duration="49696000" />
     </task>
     <task id="LOCAL-00001" summary="added basic frontend files">
       <created>1604763596652</created>
@@ -183,7 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604807328560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="camera works and can take a picture">
+      <created>1604813557860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604813557860</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sends request">
+      <created>1604815141190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604815141190</updated>
+    </task>
+    <task id="LOCAL-00016" summary="we're going back to local bois">
+      <created>1604834435570</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604834435570</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,17 +229,24 @@
     <MESSAGE value="firebase hosting" />
     <MESSAGE value="edited app.py" />
     <MESSAGE value="frontend camera work" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend camera work" />
+    <MESSAGE value="camera works and can take a picture" />
+    <MESSAGE value="sends request" />
+    <MESSAGE value="we're going back to local bois" />
+    <option name="LAST_COMMIT_MESSAGE" value="we're going back to local bois" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1604830974606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604830974606" />
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604782107342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604782107342" />
-    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog" timestamp="1604805154858">
+    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog" timestamp="1604834452488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604805154858" />
+    <state x="110" y="54" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604834452488" />
     <state x="115" y="61" key="MergeDialog" timestamp="1604804494383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,13 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="263" key="MultipleFileMergeDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804496530" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604807330976">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604834460652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604807330976" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604804700805">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604834460652" />
+    <state x="2503" y="540" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604824626146">
+      <screen x="1920" y="181" width="1440" height="860" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804700805" />
+    <state x="2503" y="540" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.181.1440.860@1920.181.1440.860" timestamp="1604824626146" />
   </component>
 </project>
