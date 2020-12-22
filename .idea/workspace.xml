@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcd6390c-9469-4072-8b11-d36ee1296db8" name="Default Changelist" comment="we're going back to local bois">
+      <change beforePath="$PROJECT_DIR$/.idea/MaskMandator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MaskMandator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaskMandator/server/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MaskMandator/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -78,7 +77,7 @@
       <recent name="C:\Users\ARJUN\PhpstormProjects\MaskMandator\MaskMandator\server\src" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\ARJUN\AppData\Roaming\Subversion</configuration>
   </component>
@@ -219,6 +218,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -247,6 +247,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="54" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604834452488" />
+    <state x="507" y="209" key="FileChooserDialogImpl" timestamp="1608608103562">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="209" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1608608103562" />
     <state x="115" y="61" key="MergeDialog" timestamp="1604804494383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,9 +263,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604834460652" />
-    <state x="2503" y="540" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604824626146">
-      <screen x="1920" y="181" width="1440" height="860" />
+    <state x="583" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608498177090">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="583" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1608498177090" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.181.1440.860@0.0.1920.1040" timestamp="1604804700805" />
     <state x="2503" y="540" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.181.1440.860@1920.181.1440.860" timestamp="1604824626146" />
   </component>
