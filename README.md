@@ -1,5 +1,7 @@
 # MaskMandator
 
+## Repository no longer in use: [New link](https://github.com/Mask-Mandator)
+
 ## [Hackathon submission for HackRPI 2020](https://devpost.com/software/mask-mandator?ref_content=user-portfolio&ref_feature=in_progress)
 
 Awards won:
